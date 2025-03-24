@@ -262,10 +262,19 @@ textarea{
 .location-info,
 .location-map,
 .sns-box{
-    width: 100%;
+    width: 100% !important;
 }
 .sns-box{
     margin-bottom: 30px;
+}
+.location-map iframe {
+    max-width: 600px;
+    width: 100%;
+}
+.sns-box iframe,
+.sns-box .twitter-timeline {
+    width: 100%;
+    max-width: 600px;
 }
 }
 
